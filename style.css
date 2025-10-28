@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+}
+
+/* Header Styling*/
+header {
+  background-color: #cdd9e38e;
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(255, 0, 157);
+  text-transform: uppercase;
+}
+
+/* personal-info(Main) content Styling */
+.personal-info {
+  font-size: 20px;
+  padding: 20px;
+  border: 2px solid #70889c8e;
+  margin: 10px;
+  min-width: 80vh;
+}
+
+/*Bio-data section styling*/
+.bio-data {
+  border: 2px solid rgba(0, 0, 0, 0.333);
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: rgba(250, 235, 215, 0.518);
+}
+img {
+  border-radius: 5px;
+  height: auto;
+}
+
+.personal li {
+  font-weight: bold;
+  padding-left: 50px;
+  line-height: 1.5;
+  color: rgb(61, 60, 60);
+}
+
+.bio-data h2 {
+  text-transform: uppercase;
+  color: rgb(114, 50, 204);
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 0px 0px 10px;
+}
+
+.personal > ul {
+  list-style-type: none;
+}
+
+/*education section styling */
+
+.education {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.608);
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.education h2 {
+  text-transform: uppercase;
+  color: rgb(114, 50, 204);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+}
+
+.education-des {
+  font-size: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.education th {
+  color: rgb(7, 7, 197);
+}
+.education th,
+td {
+  border: 2px solid #dddddd;
+  background-color: rgb(241, 245, 249);
+  text-align: center;
+  padding: 10px;
+}
+
+/* experiance section styling */
+
+.experiance {
+  background-color: whitesmoke;
+  border: 2px solid gray;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px rgba(128, 128, 128, 0.25);
+}
+.experiance h2 {
+  text-transform: uppercase;
+  color: rgb(114, 50, 204);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+}
+
+dl {
+  padding: 10px;
+}
+
+dt {
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: crimson;
+  padding-bottom: 8px;
+  text-shadow: 2px 2px #dddddd;
+}
+
+dd {
+  line-height: 2.5;
+}
+
+dd > p > strong {
+  font-family: sans-serif;
+  color: midnightblue;
+  text-indent: 20px;
+}
+dd > p {
+  font-family: serif;
+  color: rgb(4, 4, 255);
+  text-indent: 20px;
+  font-weight: bold;
+}
+
+.experiance > dl > ul {
+  list-style-type: disc;
+}
+
+.experiance > dl > ul > li {
+  margin-left: 80px;
+  padding: 8px;
+  font-family: monospace;
+}
+
+.family-details {
+}
+
+/*family-details section styling*/
+
+.family-details {
+  background-color: #ffffff;
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid rgb(230, 222, 180);
+  background-color: azure;
+  border-radius: 5px;
+  box-shadow: 5px 5px rgba(128, 128, 128, 0.431);
+}
+
+.family-details h2 {
+  text-transform: uppercase;
+  color: rgb(114, 50, 204);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10px;
+}
+
+.family-details table {
+  background-color: rgb(217, 205, 229);
+  height: 30px;
+}
+
+.family-details th,
+tr,
+td {
+  height: 60px;
+  border: 1px solid rgb(193, 189, 189);
+}
